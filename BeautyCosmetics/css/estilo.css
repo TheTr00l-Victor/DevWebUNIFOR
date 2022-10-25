@@ -6,12 +6,13 @@
 *{
 	margin: 0;
 	padding: 0;
+
 }
 
 body {
 	font-size: 1em; /*16px*/
 	font-family: "Trebuchet MS", Helvetica,
-	 sans-serif;
+	sans-serif;
 	background: #FFF;
 
 }
@@ -20,17 +21,21 @@ body {
 
 #area-cabecalho{
 	background-color: #260801;
-	padding: 25px 25px 10px 25px;
+	width: 100%;
+	padding-top: 25px;
+	padding-right: 25px;
+	padding-bottom: 0px;
+	padding-left: 25px;
+	border-bottom: 2px solid #F2A2A9; 
 }
 
 #logo{
 	color: white;
-	text-align: center;
-	float: left;
 	font-size: 1.4em;
 	letter-spacing: 2px;
+	padding: 0px 15px;
 	margin-bottom: 25px;
-	padding-bottom: -10px;
+
 }
 
 #logo-top{
@@ -38,16 +43,25 @@ body {
 }
 
 #logo-bot{
-	letter-spacing: 5.5px;
+	letter-spacing: 5.6px;
 }
 
 #cabecalho-superior{
+	display: flex;
+	align-items: center;
+}
+
+#cabecalho-inferior {
+	width: 100%;
+
 
 }
 
-#cabecalho-inferior{
-	text-align: center;
-	clear: both;
+#menu{
+	padding-right: 1.5%;
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
 }
 
 /*FORMATAÇÃO DOS LINKS*/
@@ -58,8 +72,8 @@ a{
 
 #cabecalho-inferior a:link, #cabecalho-inferior a:visited{
 	color: white;
-	padding: 0px 90px;
 	text-decoration: none;
+
 }
 #cabecalho-inferior a:hover{
 	color: #D96B43;
@@ -76,12 +90,7 @@ a{
 	font-family: 'Aleo', serif;
 }
 
-h1{
-	
-
-}
-
 .logo-size{
 	font-size: 2em;
-	margin-bottom: 1px;
 }
+
