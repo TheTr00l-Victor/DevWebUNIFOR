@@ -30,10 +30,15 @@ body {
 	font-size: 1.4em;
 	letter-spacing: 2px;
 	margin-bottom: 25px;
+	padding-bottom: -10px;
 }
 
 #logo-top{
-	margin-bottom: -11px;
+	margin-bottom: -21px;
+}
+
+#logo-bot{
+	letter-spacing: 5.5px;
 }
 
 #cabecalho-superior{
@@ -54,6 +59,7 @@ a{
 #cabecalho-inferior a:link, #cabecalho-inferior a:visited{
 	color: white;
 	padding: 0px 90px;
+	text-decoration: none;
 }
 #cabecalho-inferior a:hover{
 	color: #D96B43;
