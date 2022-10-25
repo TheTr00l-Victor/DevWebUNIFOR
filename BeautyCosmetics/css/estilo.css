@@ -1,0 +1,81 @@
+/*Importação de fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo&display=swap');
+
+/*Limpar formatações padrão*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1em; /*16px*/
+	font-family: "Trebuchet MS", Helvetica,
+	 sans-serif;
+	background: #FFF;
+
+}
+
+/*LAYOUT*/
+
+#area-cabecalho{
+	background-color: #260801;
+	padding: 25px 25px 10px 25px;
+}
+
+#logo{
+	color: white;
+	text-align: center;
+	float: left;
+	font-size: 1.4em;
+	letter-spacing: 2px;
+	margin-bottom: 25px;
+}
+
+#logo-top{
+	margin-bottom: -11px;
+}
+
+#cabecalho-superior{
+
+}
+
+#cabecalho-inferior{
+	text-align: center;
+	clear: both;
+}
+
+/*FORMATAÇÃO DOS LINKS*/
+
+a{
+	text-decoration: none;
+}
+
+#cabecalho-inferior a:link, #cabecalho-inferior a:visited{
+	color: white;
+	padding: 0px 90px;
+}
+#cabecalho-inferior a:hover{
+	color: #D96B43;
+	text-decoration: underline;
+}
+
+/*FORMATAÇÕES GERAIS*/
+
+.font-AbhayaLibre{
+	font-family: 'Abhaya Libre', serif;
+}
+
+.font-Aleo{
+	font-family: 'Aleo', serif;
+}
+
+h1{
+	
+
+}
+
+.logo-size{
+	font-size: 2em;
+	margin-bottom: 1px;
+}
