@@ -13,6 +13,7 @@ body {
 	font-size: 1em; /*16px*/
 	font-family: "Trebuchet MS", Helvetica,
 	sans-serif;
+	width: 100vw;
 	background: #FFF;
 
 }
@@ -22,11 +23,12 @@ body {
 #area-cabecalho{
 	background-color: #260801;
 	width: 100%;
-	padding-top: 25px;
-	padding-right: 25px;
-	padding-bottom: 0px;
-	padding-left: 25px;
 	border-bottom: 2px solid #F2A2A9; 
+}
+
+#cabecalho-superior{
+	height: 100%;
+	align-items: center;
 }
 
 #logo{
@@ -35,7 +37,7 @@ body {
 	letter-spacing: 2px;
 	padding: 0px 15px;
 	margin-bottom: 25px;
-
+	float: left;
 }
 
 #logo-top{
@@ -43,17 +45,42 @@ body {
 }
 
 #logo-bot{
-	letter-spacing: 5.6px;
+	letter-spacing: 6px;
 }
 
-#cabecalho-superior{
+#conteiner-nav-icons{
 	display: flex;
+	justify-content: space-between;
 	align-items: center;
+	height: 85px;
+	border: 1px solid white;
+	
+}
+
+#nav-principal{
+	flex-grow: 0.5;
+	padding-left: 50px;
+}
+
+.input{
+	width: 300px;
+}
+
+#icons{
+	padding-right: 35px;
+}
+
+#list-icons{
+	list-style: none;
+	display: flex;
+}
+
+#list-icons span{
+	margin: 0px 20px;
 }
 
 #cabecalho-inferior {
 	width: 100%;
-
 
 }
 
@@ -92,5 +119,9 @@ a{
 
 .logo-size{
 	font-size: 2em;
+}
+
+.white{
+	color: #FFF;
 }
 
