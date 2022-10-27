@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro</title>
+    <link rel="stylesheet" href="./assets/css/style-cadastro.css">
+
+</head>
+<body>
+    <div class="form">
+        <form action="#">
+            <div class="form-header">
+                <div class="title">
+                    <h1>CADASTRO</h1>
+                </div>
+            </div>
+            <div class="input-group">
+                <div class="input-box">
+                    <label for="nome">Nome</label>
+                    <input id="nome" type="text" name="nome" placeholder="Digite seu nome" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="sobrenome">Sobrenome</label>
+                    <input id="sobrenome" type="text" name="sobrenome" placeholder="Digite seu sobrenome" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="email">E-mail</label>
+                    <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="cpf">CPF</label>
+                    <input id="cpf" type="text" name="cpf" placeholder="xxx.xxx.xxx-xx" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="dataNascimento">Data de nascimento</label>
+                    <input id="dataNascimento" type="date" name="dataNascimento" placeholder="xx/yy/zz" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="telefone">Telefone</label>
+                    <input id="telefone" type="tel" name="telefone" placeholder="(xx) xxxx-xxxx" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="senha">Senha</label>
+                    <input id="senha" type="password" name="senha" placeholder="Digite sua senha" required>
+                    <h6>Mínimo de 6 caracteres</h6>
+                </div>
+
+            </div>
+
+            <h3>Já possui uma conta? Clique aqui para entrar!</h3>
+            <div class="register-button">
+                <button><a href="index.html">CADASTRAR</a></button>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
