@@ -1,43 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Beauty Cosmetics - Home</title>
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<!-- Bootstrap navbar -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Fim Bootstrap navbar -->
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
+    <!-- Font Awesome -->
+	<script src="https://kit.fontawesome.com/a245ae11a3.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
 	<!-- Inicio cabeçalho -->
 	<div id="area-cabecalho">
 
+		
 		<div id="cabecalho-superior">
 
-			<div id="logo" class="font-AbhayaLibre">
+			<a href="index.html">
+				<div id="logo" class="font-AbhayaLibre">
 
-				<div id="logo-top">
-					<span class="logo-size">BEAUTY</span>
+					<div id="logo-top">
+						<span class="logo-size">BEAUTY</span>
+					</div>
+					
+					<div id="logo-bot">
+						<span>COSMETICS</span>
+					</div>
 				</div>
-				
-				<div id="logo-bot">
-					<span>COSMETICS</span>
-				</div>
-			</div>
+			</a>
+			
 		
 			<div id="conteiner-nav-icons">
 
 				<nav id="nav-principal">
 					<form class="container-fluid">
 						<div class="input-group">
-							<input type="text" class="form-control"  placeholder="O QUE VOCÊ PROCURA?" aria-label="Username" aria-describedby="basic-addon1">
-							<span class="input-group-text" id="basic-addon1">@</span>
+							<input type="text" class="form-control"  placeholder="O QUE VOCÊ PROCURA?"
+							 aria-label="Username" aria-describedby="basic-addon1">
+							<span class="input-group-text" id="basic-addon1">
+								<a href="pesquisa.html" style="color: black;"><i class="fa-solid fa-magnifying-glass"></i></a>
+							</span>
 						</div>
 					</form>
 				</nav>
@@ -45,12 +51,17 @@
 				<div id="icons" class="white">
 
 					<ul id="list-icons">
-						<li><span>@</span></li>
+						<li><span><a href=""><i class="fa-solid fa-location-dot fa-xl"></i></a></span></li>
 
-						<li><span>$</span></li>
+						<li><span><a href=""><i class="fa-solid fa-cart-shopping fa-xl"></i></a></span></li>
 
-						<li><span>@</span></li>
+						<li><span><a href=""><i class="fa-solid fa-user fa-xl"></i></a></span></li>
+
+						<div class="bolinha">3</div>
+
 					</ul>
+
+					
 
 				</div>
 
@@ -75,6 +86,362 @@
 		
 	</div><!-- Final cabeçalho -->
 
+	<!--Inicio carrocel-->
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+		  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+		  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner">
+		  <div class="carousel-item active">
+			<img src="Imagens\imgTesteCarrocel.jpg" class="d-block w-100" alt="...">
+		  </div>
+		  <div class="carousel-item">
+			<img src="Imagens\imgTesteCarrocel2.jpg" class="d-block w-100" alt="...">
+		  </div>
+		  <div class="carousel-item">
+			<img src="Imagens\imgTesteCarrocel3.jpg" class="d-block w-100" alt="...">
+		  </div>
+		</div>
+		<a href="#carouselExampleIndicators" class="carousel-control-prev" data-slide="prev">
+			<i class="fa-solid fa-square-caret-left fa-3x"></i>
+		</a>
+		<a href="#carouselExampleIndicators" class="carousel-control-next" data-slide="next">
+			<i class="fa-solid fa-square-caret-right fa-3x"></i>
+		</a>
+	</div><!--Final carrocel-->
+
+	<div class="mais-vendido">
+		<h2 class="font-Aleo" style="color: #260801; letter-spacing: 3px;"> MAIS VENDIDOS</h2>
+	</div>
+
+	
+
+
+
+
+
+<!--Inicio carrocel items-->
+<div id="carouselProdutos" class="carousel slide" data-ride="carousel">
+	<ol class="carousel-indicators">
+	  <li data-target="#carouselProdutos" data-slide-to="1" class="active"></li>
+	  <li data-target="#carouselProdutos" data-slide-to="0"></li>
+	  <li data-target="#carouselProdutos" data-slide-to="2"></li>
+	</ol>
+	<div class="carousel-inner">
+	  <div class="carousel-item active">
+
+
+			<!--Inicio carrocel 2-->
+	<div id="background-rosinha">
+		<div class="container-fluid marcador-container">
+			<div class="row align-items-center" style=" height: 450px;">
+
+				<div class="col-2  marcador-laterais">
+					
+				</div>
+
+				<div class="col marcador centralizador-text">
+
+					<a href=""><img src="Imagens\ALLUREchanel.png" class="img-thumbnail" alt=""></a>
+
+					<div class="row ">
+						<p class="col-12  font-AbhayaLibre format-nome-prod " style="margin-bottom: 0; " >Chanel Alure</p>
+					</div>
+
+					<div class="container">
+						<div class="row align-items-center ">
+							<i class=" col-5 fa-solid fa-heart fa-xl  " style="text-align: right; "></i>
+							<span class=" col-7 format-valor-prod font-AbhayaLibre " style="text-align: left;">R$1000,00</span>
+						</div>
+					</div>										
+				</div>
+
+				<div class="col marcador centralizador-text">
+
+					<a href=""><img src="Imagens\AntonioBandeiras.png" class="img-thumbnail" alt=""></a>
+
+					<div class="row ">
+						<p class="col-12  font-AbhayaLibre format-nome-prod " style="margin-bottom: 0; " >Antonio Bandeiras</p>
+					</div>
+
+					<div class="container">
+						<div class="row align-items-center ">
+							<i class=" col-5 fa-solid fa-heart fa-xl  " style="text-align: right; "></i>
+							<span class=" col-7 format-valor-prod font-AbhayaLibre " style="text-align: left;">R$100,00</span>
+						</div>
+					</div>										
+				</div>
+				
+				<div class="col marcador centralizador-text">
+
+					<a href=""><img src="Imagens\DreamCiclo.png" class="img-thumbnail" alt=""></a>
+
+					<div class="row ">
+						<p class="col-12  font-AbhayaLibre format-nome-prod " style="margin-bottom: 0; " >Dream Ciclo</p>
+					</div>
+
+					<div class="container">
+						<div class="row align-items-center ">
+							<i class=" col-5 fa-solid fa-heart fa-xl  " style="text-align: right; "></i>
+							<span class=" col-7 format-valor-prod font-AbhayaLibre " style="text-align: left;">R$150,00</span>
+						</div>
+					</div>										
+				</div>
+				<div class="col marcador centralizador-text">
+
+					<a href=""><img src="Imagens\GiorgioArmaniStronger.png" class="img-thumbnail" alt=""></a>
+
+					<div class="row ">
+						<p class="col-12  font-AbhayaLibre format-nome-prod " style="margin-bottom: 0; " >Stronger Armani</p>
+					</div>
+
+					<div class="container">
+						<div class="row align-items-center ">
+							<i class=" col-5 fa-solid fa-heart fa-xl  " style="text-align: right; "></i>
+							<span class=" col-7 format-valor-prod font-AbhayaLibre " style="text-align: left;">R$400,00</span>
+						</div>
+					</div>										
+				</div>
+				<div class="col-2  marcador-laterais">
+					
+				</div>
+
+			</div>	
+		</div>
+
+
+	</div><!--Final carrocel 2-->
+
+
+	  </div>
+	  <div class="carousel-item">
+			<!--Inicio carrocel 1-->
+		<div id="background-rosinha">
+			<div class="container-fluid marcador-container">
+				<div class="row align-items-center" style=" height: 450px;">
+
+					<div class="col-2  marcador-laterais">
+						
+					</div>
+
+					<div class="col marcador centralizador-text">
+
+						<a href="produto-Info.html"><img src="Imagens\LAVIEESTBELLE.png" class="img-thumbnail" alt=""></a>
+
+						<div class="row ">
+							<p class="col-12  font-AbhayaLibre format-nome-prod " style="margin-bottom: 0; " >LAVIE EST BELLE</p>
+						</div>
+
+						<div class="container">
+							<div class="row align-items-center ">
+								<i class=" col-5 fa-solid fa-heart fa-xl  " style="text-align: right; "></i>
+								<span class=" col-7 format-valor-prod font-AbhayaLibre " style="text-align: left;">R$330,00</span>
+							</div>
+						</div>										
+					</div>
+
+					<div class="col marcador centralizador-text">
+
+						<a href=""><img src="Imagens\CocoChanel.png" class="img-thumbnail" alt=""></a>
+
+						<div class="row ">
+							<p class="col-12  font-AbhayaLibre format-nome-prod " style="margin-bottom: 0; " >Coco Chanel N-5</p>
+						</div>
+
+						<div class="container">
+							<div class="row align-items-center ">
+								<i class=" col-5 fa-solid fa-heart fa-xl  " style="text-align: right; "></i>
+								<span class=" col-7 format-valor-prod font-AbhayaLibre " style="text-align: left;">R$1050,00</span>
+							</div>
+						</div>										
+					</div>
+					
+					<div class="col marcador centralizador-text">
+
+						<a href=""><img src="Imagens\Icônic-GalaxyConcept.png" class="img-thumbnail" alt=""></a>
+
+						<div class="row ">
+							<p class="col-12  font-AbhayaLibre format-nome-prod " style="margin-bottom: 0; " >Icônic Galaxy</p>
+						</div>
+
+						<div class="container">
+							<div class="row align-items-center ">
+								<i class=" col-5 fa-solid fa-heart fa-xl  " style="text-align: right; "></i>
+								<span class=" col-7 format-valor-prod font-AbhayaLibre " style="text-align: left;">R$289,00</span>
+							</div>
+						</div>										
+					</div>
+					<div class="col marcador centralizador-text">
+
+						<a href=""><img src="Imagens\ViktorERolf.png" class="img-thumbnail" alt=""></a>
+
+						<div class="row ">
+							<p class="col-12  font-AbhayaLibre format-nome-prod " style="margin-bottom: 0; " >Viktor&Rolf</p>
+						</div>
+
+						<div class="container">
+							<div class="row align-items-center ">
+								<i class=" col-5 fa-solid fa-heart fa-xl  " style="text-align: right; "></i>
+								<span class=" col-7 format-valor-prod font-AbhayaLibre " style="text-align: left;">R$550,00</span>
+							</div>
+						</div>										
+					</div>
+					<div class="col-2  marcador-laterais">
+						
+					</div>
+
+				</div>	
+			</div>
+
+
+		</div><!--Final carrocel 1-->
+	  </div>
+	  <div class="carousel-item">
+
+
+			<!--Inicio carrocel 3-->
+	<div id="background-rosinha">
+		<div class="container-fluid marcador-container">
+			<div class="row align-items-center" style=" height: 450px;">
+
+				<div class="col-2  marcador-laterais">
+					
+				</div>
+
+				<div class="col marcador centralizador-text">
+					<img src="Imagens\InterbrianteHinode.png" class="img-thumbnail" alt="">
+
+					<div class="row ">
+						<p class="col-12  font-AbhayaLibre format-nome-prod " style="margin-bottom: 0; " >LAVIE EST BELLE</p>
+					</div>
+
+					<div class="container">
+						<div class="row align-items-center ">
+							<i class=" col-5 fa-solid fa-heart fa-xl  " style="text-align: right; "></i>
+							<span class=" col-7 format-valor-prod font-AbhayaLibre " style="text-align: left;">R$200,00</span>
+						</div>
+					</div>										
+				</div>
+
+				<div class="col marcador centralizador-text">
+					<img src="Imagens\JuianaPaes.png" class="img-thumbnail" alt="">
+
+					<div class="row ">
+						<p class="col-12  font-AbhayaLibre format-nome-prod " style="margin-bottom: 0; " >LAVIE EST BELLE</p>
+					</div>
+
+					<div class="container">
+						<div class="row align-items-center ">
+							<i class=" col-5 fa-solid fa-heart fa-xl  " style="text-align: right; "></i>
+							<span class=" col-7 format-valor-prod font-AbhayaLibre " style="text-align: left;">R$200,00</span>
+						</div>
+					</div>										
+				</div>
+				
+				<div class="col marcador centralizador-text">
+					<img src="Imagens\RedSport.png" class="img-thumbnail" alt="">
+
+					<div class="row ">
+						<p class="col-12  font-AbhayaLibre format-nome-prod " style="margin-bottom: 0; " >LAVIE EST BELLE</p>
+					</div>
+
+					<div class="container">
+						<div class="row align-items-center ">
+							<i class=" col-5 fa-solid fa-heart fa-xl  " style="text-align: right; "></i>
+							<span class=" col-7 format-valor-prod font-AbhayaLibre " style="text-align: left;">R$200,00</span>
+						</div>
+					</div>										
+				</div>
+				<div class="col marcador centralizador-text">
+					<img src="Imagens\TentationBleFemme.png" class="img-thumbnail" alt="">
+
+					<div class="row ">
+						<p class="col-12  font-AbhayaLibre format-nome-prod " style="margin-bottom: 0; " >LAVIE EST BELLE</p>
+					</div>
+
+					<div class="container">
+						<div class="row align-items-center ">
+							<i class=" col-5 fa-solid fa-heart fa-xl  " style="text-align: right; "></i>
+							<span class=" col-7 format-valor-prod font-AbhayaLibre " style="text-align: left;">R$200,00</span>
+						</div>
+					</div>										
+				</div>
+				<div class="col-2  marcador-laterais">
+					
+				</div>
+
+			</div>	
+		</div>
+
+
+	</div><!--Final carrocel 3-->
+
+
+	  </div>
+	</div>
+	<a href="#carouselProdutos" class="carousel-control-prev" data-slide="prev">
+		<i class="fa-solid fa-square-caret-left fa-3x"></i>
+	</a>
+	<a href="#carouselProdutos" class="carousel-control-next" data-slide="next">
+		<i class="fa-solid fa-square-caret-right fa-3x"></i>
+	</a>
+</div><!--Final carrocel items-->
+
+
+
+
+
+
+
+
+
+
+
+	<footer>
+		<div id="container-footer">
+			
+			<div id="contatos" class="font-Aleo white">
+				<div>
+					<p style="letter-spacing: 1px;">CONTATOS</p>
+					<span style="display: block;" class="contato">(85)98106-2666 </span>
+					<span style="color: #F2A391; display: block;" id="telefone" ><i class="fa-solid fa-phone fa-2x" ></i></span>
+				</div>
+				 
+			</div>
+
+			<div id="redes-sociais" class="font-Aleo white">
+
+				<p style="letter-spacing: 1px;">REDES SOCIAIS</p>
+				<div id="icones-sociais">
+					<span><a href=""><i class="fa-brands fa-instagram fa-2x"></i></a></span>
+					<span><a href=""><i class="fa-brands fa-twitter fa-2x"></i></a></span>
+					<span><a href=""><i class="fa-brands fa-facebook fa-2x"></i></a></span>
+					<span><a href=""><i class="fa-brands fa-pinterest fa-2x"></i></a></span>
+					<span><a href=""><i class="fa-brands fa-youtube fa-2x"></i></a></span>
+				</div>
+
+			</div>
+
+			<div id="invisible-man">
+
+			</div>
+		</div>
+	</footer>
+
+
+	
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 
 </body>
 </html>
+
+
+
+
